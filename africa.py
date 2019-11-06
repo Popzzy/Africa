@@ -239,7 +239,7 @@ def area_1():
 		south += "President: Salva Kiir Mayardit"
 		south += "Currency: South Sudanese pound"
 		south += "Recognised national languages: Bari; Dinka; Luo; Murle; Nuer; Zande; and around 60 other languages."
-		print(Fore.LIGTHYELLOW_EX + south)
+		print(Fore.LIGHTYELLOW_EX + south)
 
 		option = "\nWould you like to now more about africa(yes/no)"
 		print(Fore.BLUE + option)
@@ -294,7 +294,7 @@ def area_2():
 		print(Fore.LIGHTRED_EX + ghanns)
 
 		option = "\nWould you like to now more about africa(yes/no)"
-		print(Fore.BLUE + option)
+		print(Fore.LIGHTBLUE_EX + option)
 		ans = input("=>> ")
 		if ans == "yes" or ans == "Yes":
 			print("which part of africa would you like to visit")
@@ -395,7 +395,7 @@ def area_2():
 		ben += "population: 11.18 million"
 		ben += "President: Patrice Talon"
 
-		print(Fore.DEEPBLUE_EX + ben)
+		print(Fore.LIGHTBLUE_EX + ben)
 		option = "\nWould you like to now more about africa(yes/no)"
 		print(Fore.BLUE + option)
 		ans = input("=>> ")
@@ -455,7 +455,7 @@ def area_3():
 		pop += "Points of interest: Kruger National Park, Table Mountain"
 		print(Fore.LIGHTRED_EX + "pop")
 		option = "\nWould you like to now more about africa(yes/no)"
-		print(Fore.BLUE + option)		
+		print(Fore.YELLOW + option)		
 		ans = input("=>> ")
 		if ans == "yes" or ans == "Yes":
 			print("which part of africa would you like to visit")
@@ -485,7 +485,7 @@ def area_3():
 		zim += "On the Zambezi River, Victoria Falls make a thundering 108m drop into narrow Batoka Gorge,"
 		zim += "where there’s white-water rafting and bungee-jumping."
 		zim += "Downstream are Matusadona and Mana Pools national parks, home to hippos, rhinos and birdlife"
-		print(zim)
+		print(Fore.LIGHTGREEN_EX + zim)
 
 		print()
 		pop = "Capital: Harare"
